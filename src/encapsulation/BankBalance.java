@@ -57,6 +57,10 @@ public class BankBalance{
         return accountNumber;
     }
 
+    public String getAccountHolder(){
+        return accountHolder;
+    }
+
     //  6. Display Account Details
     public void displayAccountDetails(){
         System.out.println("Account Holder: " + accountHolder);
