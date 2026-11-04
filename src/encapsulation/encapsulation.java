@@ -1,7 +1,6 @@
 //  Encapsulation doesn't require a single public class.
 //  It also does not require multiple classes.
 
-
 //  We can implement encapsulation using one class, two classes or many classes.
 //  The number of classes is an architectural decision.
 
@@ -12,10 +11,11 @@
 //  It protects variable by : private
 //  It provides controlled access : public methods such as getters and setters
 
-//organizes classes
+
+//package here organizes classes
 package encapsulation;
 
-// encapsulation can done in one-class or multiple public class in seperate files of same source
+// encapsulation can be done in one-class or multiple public class in seperate files of same source
 public class encapsulation {
 
     //protects data from direct external access
@@ -29,7 +29,7 @@ public class encapsulation {
         }
     }
 
-    //provides controlled access to data
+    //getter
     public double getBalance(){
         return balance;
     }
