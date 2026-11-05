@@ -1,3 +1,5 @@
+//  Topic : Encapsulation
+
 //  Encapsulation doesn't require a single public class.
 //  It also does not require multiple classes.
 
