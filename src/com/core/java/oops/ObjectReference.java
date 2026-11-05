@@ -1,4 +1,10 @@
 //  Topic : Core Java - Object Reference
+//                    - Assigning Instance variable values
+//                    - Independent objects maintain separate data
+//                    - Multiple references pointing to one object
+//                    - Shared object modification
+//                    - Reference assignment
+//                    - Changes visible through both references
 
 package com.core.java.oops;
 
