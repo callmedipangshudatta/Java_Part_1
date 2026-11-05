@@ -30,21 +30,32 @@ public class ClassObject {
     public static void main(String[] args){
 
         //  Reference Object or Creating an Object
-        ClassObject car1 = new ClassObject();
+        //  If we broke this statement down:
 
-        //  Assigning values to object properties
+        //  ClassObject : Class/Reference type
+        //  car1/car2 : Reference Variable
+        //  new : Creates an object
+        //  ClassObject() : Constructor Call
+        ClassObject car1 = new ClassObject();
+        ClassObject car2 = new ClassObject();
+
+        //  Assigning values to object properties by dot operator
         //  The dot operator accesses a member of
         //  the object through its reference
         car1.brand = "BMW";
         car1.color = "Black";
         car1.speed = 180;
 
+        car2.brand = "Audi";
+        car2.color = "White";
+        car2.speed = 225;
+
         //  Accessing properties
         System.out.println(car1.brand);
         System.out.println(car1.color);
         System.out.println(car1.speed);
 
-        //  Calling method
+        //  Objects can invoke methods defined in its class
         car1.drive();
     }
 }
