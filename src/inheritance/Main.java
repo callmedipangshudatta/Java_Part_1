@@ -1,3 +1,5 @@
+//  Topic : Encapsulation
+
 //  Package : Folder that organize related Java classes
 package inheritance;
 
