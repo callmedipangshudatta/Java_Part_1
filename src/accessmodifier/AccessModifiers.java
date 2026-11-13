@@ -10,4 +10,7 @@ public class AccessModifiers {
     }
 }
 
-//  Private access is controlled by the declaring class, not the package
+// public → accessible everywhere.
+// private → accessible only inside the declaring class.
+// default → accessible only inside the same package.
+// protected → accessible within the same package and through inheritance in a different package.
