@@ -2,17 +2,24 @@ package accessmodifier2;
 
 import accessmodifier.AccessModifiers;
 
-public class TestDifferentPackage {
+// Inheritance establishes a parent-child relationship.
+public class TestDifferentPackage extends AccessModifiers {
+
     public static void main(String[] args) {
-        AccessModifiers car = new AccessModifiers();
-        System.out.println(car.brand);
-        System.out.println(car.getPrice());
+
+        // Creating an object of the subclass.
+        TestDifferentPackage car = new TestDifferentPackage();
+
+        System.out.println(car.brand);     // public
+        System.out.println(car.speed);     // protected
+        System.out.println(car.getPrice()); // public method
     }
 }
 
+//  So why we used Inheritance to call-out variables?
 
-//  Variable	   Modifier	       Same package	        Different package, unrelated class
-//  brand	        public	            Allowed	                            Allowed
-//  price	        private	            Not allowed	                        Not allowed
-//  speed	        protected	        Allowed	                            Not allowed
-//  color	        package-private	    Allowed	                            Not allowed
+//  To establish a parent-child relationship between two classes.
+
+//  So it can access inherited protected and public, but not
+//  not necessarily private or package-private members
+
