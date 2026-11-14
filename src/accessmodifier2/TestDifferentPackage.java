@@ -6,8 +6,7 @@ public class TestDifferentPackage {
     public static void main(String[] args) {
         AccessModifiers car = new AccessModifiers();
         System.out.println(car.brand);
-        System.out.println(car.color);
-        System.out.println(car.speed);
+        System.out.println(car.getPrice());
     }
 }
 
