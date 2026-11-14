@@ -4,7 +4,7 @@ public class AccessModifiers {
     public String brand = "BMW";
     private double price = 5000000;
     protected int speed = 200;
-    String color = "Black";
+    String color = "Black"; //  pacakage-private
     public double  getPrice() {
         return price;
     }
