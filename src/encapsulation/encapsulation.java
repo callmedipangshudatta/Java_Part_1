@@ -20,10 +20,11 @@ package encapsulation;
 // encapsulation can be done in one-class or multiple public class in seperate files of same source
 public class encapsulation {
 
-    //protects data from direct external access
+    //  protects data from direct external access
+    //  access modifier :- private
     private double balance;
 
-    //provides control modification
+    //  provides control modification
     public void deposit(double amount){
         if(amount > 0){
             balance = balance + amount;
@@ -31,11 +32,12 @@ public class encapsulation {
         }
     }
 
-    //getter
+    //  getter
     public double getBalance(){
         return balance;
     }
 
+    //  main() function
     public static void main(String[] args){
 
         //creates a reference to an object
