@@ -34,6 +34,12 @@ public class BankAccount {
 
             System.out.println("\n--- AMAN'S ACCOUNT ---");
             account2.displayAccountDetails();
+
+            //  ReadOnlyAccount account = new ReadOnlyAccount("ACC101");
+            //  System.out.println(account.getAccountNumber());
+
+            //  WriteOnlyAccount account = new WriteOnlyAccount();
+            //  account.setPassword("Krishna123");
         }
 }
 
