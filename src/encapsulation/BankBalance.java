@@ -27,21 +27,21 @@ public class BankBalance{
 
     //  3. Deposit
     public void deposit(double amount){
-        if(amount >0) {
-            balance = balance + amount;
-            System.out.println("Deposited " + amount);
-        }else{
-            System.out.println("Invalid Amount");
+        if(amount <= 0){
+            System.out.println("Invalid deposit amount");
+            return;
         }
+        balance += amount;
+        System.out.println("Deposited "+amount);
     }
 
     // 4. Withdraw
     public void withdraw(double amount){
-        if(amount > balance){
-            System.out.println("Insufficient balance ");
+        if (amount <= 0) {
+            System.out.println("Invalid withdrawal amount");
         }
-        else if(amount <= 0){
-            System.out.println("Invalid withdrawl amount");
+        else if (amount > balance) {
+            System.out.println("Insufficient balance");
         }else{
             balance = balance - amount;
             System.out.println("Withdrawn " + amount);
