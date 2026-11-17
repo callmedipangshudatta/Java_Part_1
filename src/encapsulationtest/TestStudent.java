@@ -19,10 +19,10 @@ public class TestStudent {
         student2.displayStudentDetails();
 
         // 3. Update Rahul's marks
-        student1.setMarks(95);
+        student1.setMarks(-10);
 
         // 4. Update Aman's age
-        student2.setAge(23);
+        student2.setAge(95);
 
         // 5. Try assigning invalid marks
         System.out.println("\n===== VALIDATION TEST =====");
